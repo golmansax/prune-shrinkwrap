@@ -1,7 +1,7 @@
 var jsonfile = require('jsonfile');
 
 var pruneShrinkwrap = function (shrinkwrapPath, packagesToRemove) {
-  const shrinkwrap = jsonfile.readFileSync(shrinkwrapPath);
+  var shrinkwrap = jsonfile.readFileSync(shrinkwrapPath);
 
   packagesToRemove.forEach(function (packageToRemove) {
     if (shrinkwrap.dependencies[packageToRemove]) {

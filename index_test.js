@@ -1,3 +1,5 @@
+/* eslint-env mocha */
+
 var expect = require('chai').expect;
 var path = require('path');
 var fs = require('fs');
