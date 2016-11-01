@@ -1,0 +1,25 @@
+{
+  "name": "prune-shrinkwrap",
+  "version": "0.0.1",
+  "description": "Remove specified packages from npm-shrinkwrap.json",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha index_test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/golmansax/prune-shrinkwrap.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/golmansax/prune-shrinkwrap/issues"
+  },
+  "homepage": "https://github.com/golmansax/prune-shrinkwrap#readme",
+  "dependencies": {
+    "jsonfile": "^2.4.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
+  }
+}
