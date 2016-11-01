@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Remove specified packages from npm-shrinkwrap.json",
   "main": "index.js",
+  "bin": "cli.js",
   "scripts": {
     "test": "mocha index_test.js"
   },
