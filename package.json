@@ -1,6 +1,6 @@
 {
   "name": "prune-shrinkwrap",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Remove specified packages from npm-shrinkwrap.json",
   "main": "index.js",
   "bin": "cli.js",
